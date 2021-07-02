@@ -1,0 +1,40 @@
+body {
+  background-color: #FFB8BF;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{ 
+  text-transform: uppercase;
+  font-size: 50px;
+  color: #68cbf8;
+}
+
+.container{
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+#board {
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.allBoxes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  background-color: orange;
+}
+
+button{
+  color: white;
+  background-color: #68cbf8;
+  font-size: 18px;
+  padding: 7px 10px;
+  border-radius: 5px;
+  margin-top: 40px;
+}
